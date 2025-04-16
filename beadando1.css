@@ -15,9 +15,7 @@
     background-color: rgb(100, 100, 100);
     border-bottom:solid  rgba(172, 172, 172, 0.747) 3px;
 }
-hr{
-    padding:-1px ;
-}
+
 img{
     height: 3rem;
 }
@@ -31,13 +29,14 @@ header{
 #fo{
     background-color: rgb(100, 100, 100);
     text-align: justify;
+    padding: 10px;
 }
 td{
     text-align: center;
     padding: 0px 10px;
 }
 th{
-
+    padding: 0px 10px;
 }
 audio::-webkit-media-controls-panel {
     width: 200px;
@@ -55,4 +54,8 @@ audio::-webkit-media-controls-panel {
     padding: 5px;
     background-color: gray;
   }
+.animal{
+    background-color: black;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.829);
+}
   
