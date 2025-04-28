@@ -8,15 +8,16 @@ html, body {
 }
 
 .container-fliuid {
-  color:white;
-  
+  color:black;
 }
-
+.navbar-nav{
+  width: 100%;
+}
 .nav-item {
   text-align: center;
   background-color: rgb(112, 112, 112);  
-  margin-left: 3.5rem;
-  width: 6rem;
+  margin-left: 10%;
+  width: 12.5%;
   border-radius: 10px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.829);
 }
@@ -133,4 +134,8 @@ audio {
 .buttons button:disabled {
   background-color: #aaa;
   cursor: not-allowed;
+}
+table{
+  width: 100%;
+  background-color:rgb(100, 100, 100);
 }
