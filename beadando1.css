@@ -1,25 +1,35 @@
-.container{
+html, body {
+  background-color: #fefefe;
   color: white;
-
+  margin-left:10rem;
+  margin-right:10rem ;
+  padding: 0;
+  height: 100%;
 }
 
-.divek{
+.container-fliuid {
+  color:white;
+  
+}
+
+.nav-item {
   text-align: center;
-  background-color: rgb(112, 112, 112);
+  background-color: rgb(112, 112, 112);    
   width: 6rem;
-  margin-left: 3.5rem;
   border-radius: 10px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.829);
 }
-.navbar{
-  background-color: rgb(100, 100, 100);
-  border-bottom:solid  rgba(172, 172, 172, 0.747) 3px;
+
+
+.navbar {background-color: rgb(100, 100, 100);
+  border-bottom:solid 3px  rgba(172, 172, 172, 0.747) ;
 }
 
 img{
   height: 3rem;
 }
 header{
+ 
   border-bottom: solid rgba(172, 172, 172, 0.747) 3px;
   background-color: rgb(100, 100, 100);
 }
@@ -28,12 +38,14 @@ header{
 }
 #fo{
   background-color: rgb(100, 100, 100);
+ 
+
   text-align: justify;
-  padding: 10px;
+  padding: 1rem;
 }
 td{
   text-align: center;
-  padding: 0px 10px;
+  padding: 0 1rem;
 }
 th{
   padding: 0px 10px;
@@ -100,7 +112,8 @@ audio {
 
 .buttons {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 1rem;
+
 }
 
 .buttons button {
