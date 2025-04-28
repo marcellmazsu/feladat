@@ -5,7 +5,12 @@ html, body {
   margin-right:10rem ;
   padding: 0;
   height: 100%;
+  background-image: url('https://imgs.search.brave.com/bQS75ytR2KA2L_0sZQ7CXOGPDPPYvr8D0HTdBGYP0Qk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzY3LzZm/LzRlLzY3NmY0ZTk2/NTAwZjE3NzFlMjk3/YzdlOWZjYmY0Njhm/LmdpZg.gif');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position-x: left;
 }
+
 
 .container-fliuid {
   color:black;
